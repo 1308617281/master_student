@@ -42,7 +42,10 @@ if __name__ == '__main__':
     # 初始化一个成员名单
     s_list = StudentList([s1, s2, s3])
     # 实现get()方法
-    s_list.get(3)
-    # # 实现delete
-    s_list.delete(2)
+    s_list.get(3)#查询一个存在的学生
+    s_list.get(4)#查询一个不存在的学生
+    # 实现delete
+    s_list.delete(2)#删除一个存在的学生信息
+    s_list.delete(4)#删除一个存在的学生信息
+
 
